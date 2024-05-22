@@ -1,0 +1,126 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "cohort": "Spring 2022"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "cohort": "Fall 2021"
+      },
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "cohort": "Summer 2023"
+      },
+      {
+        "id": 4,
+        "name": "Bob Brown",
+        "email": "bob@example.com",
+        "cohort": "Winter 2024"
+      },
+      {
+        "id": 5,
+        "name": "Eva Green",
+        "email": "eva@example.com",
+        "cohort": "Spring 2023"
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "userId": 1,
+        "title": "Introduction to Functions",
+        "body": "Functions are...",
+        "date": "2024-05-20",
+        "topicId": 1
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "title": "Asynchronous Programming Basics",
+        "body": "Asynchronous programming allows...",
+        "date": "2024-05-21",
+        "topicId": 2
+      },
+      {
+        "id": 3,
+        "userId": 3,
+        "title": "Advanced Functions Techniques",
+        "body": "In this post, we'll explore...",
+        "date": "2024-05-22",
+        "topicId": 1
+      },
+      {
+        "id": 4,
+        "userId": 4,
+        "title": "JavaScript Promises Explained",
+        "body": "Promises simplify asynchronous...",
+        "date": "2024-05-23",
+        "topicId": 2
+      },
+      {
+        "id": 5,
+        "userId": 5,
+        "title": "Understanding Callback Functions",
+        "body": "Callbacks are...",
+        "date": "2024-05-24",
+        "topicId": 1
+      }
+    ],
+    "topics": [
+      {
+        "id": 1,
+        "name": "Functions"
+      },
+      {
+        "id": 2,
+        "name": "Asynchronous Programming"
+      },
+      {
+        "id": 3,
+        "name": "Promises"
+      },
+      {
+        "id": 4,
+        "name": "Callbacks"
+      },
+      {
+        "id": 5,
+        "name": "JavaScript Basics"
+      }
+    ],
+    "likes": [
+      {
+        "id": 1,
+        "userId": 1,
+        "postId": 2
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "postId": 3
+      },
+      {
+        "id": 3,
+        "userId": 3,
+        "postId": 1
+      },
+      {
+        "id": 4,
+        "userId": 4,
+        "postId": 1
+      },
+      {
+        "id": 5,
+        "userId": 5,
+        "postId": 2
+      }
+    ]
+  }
+  
